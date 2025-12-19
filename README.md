@@ -1,10 +1,10 @@
-# 🚀 Laravel API Starter
+<h1 align="center">🚀 Laravel API Starter</h1>
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat&logo=laravel)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat&logo=php)](https://php.net)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-> **My First REST API Learning Project** 🎓
+<p align="center">
+  <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat&logo=laravel" alt="Laravel"></a>
+  <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat&logo=php" alt="PHP"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+</p>
 
 My first REST API project built while learning REST API development with Laravel. This demonstrates clean architecture with Service Layer pattern, API Resources, comprehensive validation, and standardized JSON responses.
 
