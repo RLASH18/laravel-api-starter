@@ -7,22 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# 🚀 Laravel API Starter
+# Laravel API Starter
 
 My first REST API project built while learning REST API development with Laravel. This demonstrates clean architecture with Service Layer pattern, API Resources, comprehensive validation, and standardized JSON responses.
 
-## ✨ Features
+## Features
 
-- ✅ **RESTful API Architecture** - Clean and consistent API design following REST principles
-- ✅ **Service Layer Pattern** - Business logic separated from controllers for better maintainability
-- ✅ **API Resources** - Consistent data transformation and response formatting
-- ✅ **Request Validation** - Form Request classes with custom validation rules and messages
-- ✅ **Standardized Responses** - Unified JSON response structure using ApiResponse trait
-- ✅ **API Versioning** - Built-in versioning support (v1) for backward compatibility
-- ✅ **Laravel Sanctum** - Ready for API authentication
-- ✅ **Clean Code** - PSR-12 coding standards with comprehensive PHPDoc comments
+- **RESTful API Architecture** - Clean and consistent API design following REST principles
+- **Service Layer Pattern** - Business logic separated from controllers for better maintainability
+- **API Resources** - Consistent data transformation and response formatting
+- **Request Validation** - Form Request classes with custom validation rules and messages
+- **Standardized Responses** - Unified JSON response structure using ApiResponse trait
+- **API Versioning** - Built-in versioning support (v1) for backward compatibility
+- **Laravel Sanctum** - Ready for API authentication
+- **Clean Code** - PSR-12 coding standards with comprehensive PHPDoc comments
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Requirements](#-requirements)
 - [Installation](#-installation)
@@ -32,14 +32,14 @@ My first REST API project built while learning REST API development with Laravel
 - [Architecture Overview](#-architecture-overview)
 - [License](#-license)
 
-## 🔧 Requirements
+## Requirements
 
 - PHP >= 8.2
 - Composer
 - SQLite (default) / MySQL / PostgreSQL
 - Node.js & NPM (optional, for frontend assets)
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -91,7 +91,7 @@ My first REST API project built while learning REST API development with Laravel
    php artisan serve
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -114,7 +114,7 @@ app/
     └── ApiResponse.php                   # Standardized JSON responses
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -291,7 +291,7 @@ DELETE /api/v1/posts/{id}
 }
 ```
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 ### Quick Setup
 
@@ -363,7 +363,7 @@ Headers:
 - Test validation by sending invalid data (e.g., empty title)
 - Test error handling by requesting non-existent resources
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Service Layer Pattern
 
@@ -374,10 +374,10 @@ Controller → Service → Model → Database
 ```
 
 **Benefits:**
-- ✅ Controllers stay thin and focused on HTTP concerns
-- ✅ Business logic is reusable across different parts of the application
-- ✅ Easier to test and maintain
-- ✅ Better separation of concerns
+- Controllers stay thin and focused on HTTP concerns
+- Business logic is reusable across different parts of the application
+- Easier to test and maintain
+- Better separation of concerns
 
 ### API Resources
 
@@ -423,7 +423,7 @@ The `ApiResponse` trait provides consistent response methods:
 - `error()` - Custom error responses
 
 
-## 📄 License
+## License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
@@ -434,5 +434,5 @@ This project is open-sourced software licensed under the [MIT license](https://o
 </p>
 
 <p align="center">
-  <sub>📚 A learning journey into Laravel REST APIs • Service Layer Pattern • Clean Architecture</sub>
+  <sub>A learning journey into Laravel REST APIs • Service Layer Pattern • Clean Architecture</sub>
 </p>
